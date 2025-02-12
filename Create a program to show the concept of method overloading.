@@ -1,0 +1,24 @@
+using System;
+class Program
+{
+    static void Display(int number)
+    {
+        Console.WriteLine("Integer: " + number);
+    }
+
+    static void Display(string message)
+    {
+        Console.WriteLine("String: " + message);
+    }
+
+    static void Display(int number1, int number2)
+    {
+        Console.WriteLine("Two integers: " + number1 + ", " + number2);
+    }
+    static void Main()
+    {
+        Display(5);               
+        Display("Hello!");        
+        Display(10, 20);          
+    }
+}
